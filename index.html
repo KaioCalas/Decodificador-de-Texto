@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="box">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Decodificador</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <div class="input">
+        <textarea
+          id="textfield"
+          placeholder="Digite aqui o texto..."
+        ></textarea>
+
+        <div class="warning-area">
+          <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <div class="buttons-area">
+          <button class="btn" id="btn-cripto">Criptografar</button>
+          <button class="btn" id="btn-descripto">Descriptografar</button>
+        </div>
+      </div>
+
+      <div id="result-area" class="result-area">
+        <p class="result-title">Nenhuma mensagem encontrada!</p>
+        <p class="result-description">
+          Digite um texto que você deseja Criptografar ou Descriptografar
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://www.linkedin.com/in/kaio-cal%C3%A1s-a7ba56207/"
+          >Kaio Calás</a
+        >
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
+</html>
